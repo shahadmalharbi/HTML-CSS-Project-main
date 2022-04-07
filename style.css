@@ -1,0 +1,106 @@
+/* background for index page*/
+body.page_one {
+    background-image: linear-gradient( rgb(183, 95, 242),rgba(220, 207, 207, 0.97),#ed62b8);
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    /* background for Contact Me page*/
+body.page_two{
+ background-image: url("background-image.png");   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size:100% ;
+}
+/* for profile image*/
+img{
+    position: relative;
+   float: left;
+   margin: 20px;
+   padding: 10px;
+}
+
+a.color {
+        color: purple;
+ } 
+
+/*  for profile information*/
+div.profile{
+    left: 200px;
+    margin: 10px 10px 50px 10px;  
+}
+/* for Horizontal Ruler line*/
+hr {
+    width: 30%;
+    border: 5px dotted;
+    border-style: none none dotted;
+    color: grey
+  }
+/* for formating the form in contact me page*/
+form{
+padding: 100px 50px;
+margin: auto; 
+width: 500px;
+text-align: center;
+}
+.input_style{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+label{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+input[type=button] {
+background-color: orangered;
+color: white;
+border-radius: 5px;
+width: 70px;
+height: 30px;
+border: 5px;
+}
+/* for the table in index page*/
+table, th, td {
+    border: 2px solid;
+    border-color: gray;
+    width: 25% ;
+  
+  }
+  
+  table {
+    width: 100%;
+  }
+  /* for formating the first table in index page*/
+  table.table_one{
+    text-align: center;
+  }
+  /* for formating the second table in index page*/
+  table.table_two{
+  height: 70px;
+  }
+  /* for Contact Me Button in index page*/
+  div.container{
+      text-align: center;
+  }
+   /* for Contact Me Button in index page*/
+  .button {
+    background-color:orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+
+  }
+  
